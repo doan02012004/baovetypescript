@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "name": "sản phẩm 1 update 2",
+      "price": "100",
+      "image": "https://picsum.photos/id/15/305/312",
+      "desc": "dep",
+      "id": 1
+    },
+    {
+      "name": "sản phẩm 2",
+      "price": "200",
+      "image": "https://picsum.photos/id/15/305/312",
+      "desc": "Dep fdfdfd",
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "email": "doan@gmail.com",
+      "password": "$2a$10$WU/40NW8ovZHr6Dm3ElfPul3zNd53YFAuxIHiolCJOfJgpWKWtH2.",
+      "id": 1
+    },
+    {
+      "email": "doan1@gmail.com",
+      "password": "$2a$10$VSLUt7NyvOrwNbTv.H/S/OFek87A5.YVpglrdT5lTxQZs.tZaTsh6",
+      "id": 2
+    },
+    {
+      "email": "doan5@gmail.com",
+      "password": "$2a$10$qLxsgOVcriM/gljQUM3Kn.HpTXpMXT3gJYcpc9SnYnRuMOyidP30q",
+      "id": 3
+    },
+    {
+      "email": "doan3@gmail.com",
+      "password": "$2a$10$YzF6zkG4/hw6zYQ25ewL/Ok78J.hBfgXCA.fDGIdywl1zsevgn8PC",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+}
+.add-products{
+    width: 50%;
+
+}
+/* .list-products{
+    width: 90%;
+    margin: auto;
+}
+.add-products{
+    width: 50%;
+    margin: auto;
+}
+.navbar-content{
+    width: 100%;
+    height: 70px;
+    border-bottom:1px solid black ;
+    position: fixed;
+    top:0;
+    left: 0;
+    background-color: black;
+    color: white;
+    z-index: 10000;
+}
+.wrapper-nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto;
+}
+.user{
+    position: relative;
+}
+.user i{
+    font-size: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.user .dropmenu-bar{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    background-color: rgb(203, 148, 255);
+    border: 1px solid black;
+    text-align: center;
+    display: none;
+}
+.user .dropmenu-bar ul li {
+    margin: 20px 0;
+    border-bottom:1px solid black;
+}
+.user .dropmenu-bar ul li a{
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+}
+.user .dropmenu-bar ul li a:hover{
+    color: gold;
+    text-decoration: underline;
+}
+.user:hover .dropmenu-bar{
+    display: block;
+}
+
+.products{
+    width: 80%;
+    margin: 100px auto;
+    height: auto;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.box-products{
+    position: relative;
+    box-shadow: 0 0 5px black;
+    padding: 10px;
+}
+.box-products .image {
+    text-align: center;
+}
+.box-products .image img{
+    margin-top: 20px;
+    width: 200px;
+    height: 150px;
+}
+.box-products .quantity{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 0px 5px;
+    background-color: red;
+    color: white;
+    font-weight: 600;
+}
+.box-products .text{
+    text-align: center;
+} */
+.login{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper-log{
+    width: 50%;
+   height: 500px;
+   border: 1px solid black;
+   display: grid;
+   border-radius: 10px;
+   grid-template-columns: repeat(2,1fr);
+}
+.wrapper-log .title{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.wrapper-log .title h1{
+    font-size: 60px;
+}
+.wrapper-log .form-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+}
+.wrapper-log .form-content form h2{
+    text-align: center;
+    line-height: 1.9;
+}
